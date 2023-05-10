@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 33%;
+  }
+  .item1 {
+    grid-area: myArea;
+  }
+  .work-grid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+    grid-gap: 10px;
+    background-color: dodgerblue;
+    padding: 10px;
+  }
+  .work-grid > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  #categoryGrid {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: "myWork" "mySkills";
+  }
