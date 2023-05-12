@@ -5,3 +5,8 @@ $(document).ready(function(){
       $("#div3").fadeToggle(3000);
     });
   });
+  $(document).ready(function() {
+    $('.pull-me').click(function() {
+      $('.panel').slideToggle('slow');
+    });
+  });

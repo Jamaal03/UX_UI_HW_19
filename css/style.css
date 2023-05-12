@@ -34,3 +34,37 @@
     grid-template-columns: auto;
     grid-template-areas: "myWork" "mySkills";
   }
+  body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .slide {
+    margin: 0;
+    padding: 0;
+    border-top: solid 2px #cc0000;
+  }
+  
+  
+  .pull-me {
+    margin: 0 auto;
+    width: 20em;
+    height: 2em;
+    font-family: arial, sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    background: #cc0000;
+    text-decoration: none;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .pull-me p {
+    text-align: center;
+  }
